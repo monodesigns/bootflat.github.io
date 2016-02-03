@@ -16,12 +16,12 @@
     "homepage": "http://bootflat.github.io/",
     "authors": [
         {
-            "name": "Bootflat",
-            "email": "info@flathemes.com"
+            "name": "Bootflat - ACE",
+            "email": "ray.brian.p@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/bootflat/bootflat.github.io/issues"
+        "issues": "https://github.com/monodesigns/bootflat.github.io/issues"
     },
     "license": "MIT"
 }

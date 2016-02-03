@@ -21,6 +21,8 @@ module.exports = function(grunt) {
 		    ' *\n' +
 		    ' * By @<%= pkg.author %>\n' +
 		    ' *\n' +
+            ' * Edited by @<%= pkg.editor %>\n' +
+		    ' *\n' +
 		    ' * Last modify time: <%= grunt.template.today("yyyy-mm-dd") %>\n' +
 		    ' *\n' +
 		    ' * Licensed under the MIT license. Please see LICENSE for more information.\n' +
@@ -130,14 +132,6 @@ module.exports = function(grunt) {
                 './htmlmin/getting-started.html': './getting-started.html',
                 './htmlmin/free-psd.html': './free-psd.html',
                 './htmlmin/documentation.html': './documentation.html',
-                './htmlmin/color-picker.html': './color-picker.html',
-                './htmlmin/color-picker-blue.html': './color-picker-blue.html',
-                './htmlmin/color-picker-gray.html': './color-picker-gray.html',
-                './htmlmin/color-picker-green.html': './color-picker-green.html',
-                './htmlmin/color-picker-pink.html': './color-picker-pink.html',
-                './htmlmin/color-picker-purple.html': './color-picker-purple.html',
-                './htmlmin/color-picker-red.html': './color-picker-red.html',
-                './htmlmin/color-picker-yellow.html': './color-picker-yellow.html'
             }
         }
     },

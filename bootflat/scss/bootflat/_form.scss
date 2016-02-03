@@ -1,26 +1,26 @@
 // Variables
 //------------------------------------------------------
-$form-normal:                      $mediumgray-dark !default;
-$form-default:                     $white !default;
-$form-primary:                     $aqua-dark !default;
-$form-success:                     $grass-dark !default;
-$form-danger:                      $grapefruit-dark !default;
-$form-warning:                     $sunflower-dark !default;
-$form-info:                        $mint-dark !default;
+$form-normal:                      $mediumgray-medium !default;
+$form-default:                     $lightgray-light !default;
+$form-primary:                     $primary-dark !default;
+$form-success:                     $success-medium !default;
+$form-danger:                      $danger-medium !default;
+$form-warning:                     $warning-medium !default;
+$form-info:                        $info-medium !default;
 
-$message-success:                  $grass-dark !default;
-$message-danger:                   $grapefruit-dark !default;
-$message-warning:                  $sunflower-dark !default;
+$message-success:                  $success-medium !default;
+$message-danger:                   $danger-medium !default;
+$message-warning:                  $warning-medium !default;
 
 $form-font-color:                  $darkgray-dark !default;
 $form-placeholder-font-color:      $lightgray-dark !default;
 
-$form-disabled-color:              $lightgray-dark !default;
+$form-disabled-color:              $lightgray-medium !default;
 
 $search-query-value:               17px !default;
 
 $search-icon-width:                30px !default;
-$search-icon-line-height:          30px !default;          
+$search-icon-line-height:          30px !default;
 
 // Exports
 //------------------------------------------------------
@@ -48,7 +48,7 @@ $search-icon-line-height:          30px !default;
           color: $form-placeholder-font-color;
       }
 
-      &.disabled, 
+      &.disabled,
       &[disabled] {
           border-color: $form-disabled-color;
           background-color: $form-disabled-color;
@@ -109,7 +109,7 @@ $search-icon-line-height:          30px !default;
           @include radius($type: border-bottom-right-radius, $value: 0);
       }
       & .btn {
-          @include radius($type: border-radius, $value: $search-query-value);  
+          @include radius($type: border-radius, $value: $search-query-value);
       }
   }
 
@@ -154,7 +154,7 @@ $search-icon-line-height:          30px !default;
       }
       & .form-control-feedback {
           color: $message-success;
-      }    
+      }
   }
   .has-warning {
       & .help-block,
@@ -208,5 +208,3 @@ $search-icon-line-height:          30px !default;
   }
 
 }
-
-

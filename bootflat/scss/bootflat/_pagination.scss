@@ -1,8 +1,8 @@
 // Variables
 //------------------------------------------------------
 $pagination-background-color:                  $white !default;
-$pagination-background-color-hover:            $mediumgray-light !default;
-$pagination-background-color-active:           $grass-dark !default;
+$pagination-background-color-hover:            $success-light !default;
+$pagination-background-color-active:           $success-medium !default;
 
 $pagination-font-color:                        $darkgray-dark !default;
 $pagination-font-color-hover:                  $white !default;
@@ -55,5 +55,3 @@ $pagination-font-color-disabled:               $lightgray-dark !default;
     }
   }
 }
-
-

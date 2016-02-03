@@ -1,21 +1,21 @@
 // Variables
 //------------------------------------------------------
-$selecter-primary:                     $aqua-dark !default;
+$selecter-primary:                     $primary-medium !default;
 
-$selecter-border-color:                $mediumgray-dark !default;
+$selecter-border-color:                $mediumgray-medium !default;
 $selecter-background-color:            $white !default;
-$selecter-disabled-color:              $mediumgray-dark !default;
-$selecter-disabled-background-color:   $lightgray-dark !default;
+$selecter-disabled-color:              $mediumgray-medium !default;
+$selecter-disabled-background-color:   $lightgray-medium !default;
 $selecter-radius-value:                4px !default;
 $selecter-arrow-width:                 20px !default;
 
-$selecter-group-color:                 $mediumgray-dark !default;
+$selecter-group-color:                 $lightgray-dark !default;
 $selecter-group-background-color:      $lightgray-light !default;
 
 $selecter-item-border-color:		   $lightgray-dark !default;
-$selecter-item-hover:		           $lightgray-dark !default;
-$selecter-item-selected:		       $aqua-dark !default;
-$selecter-item-selected-border-color:  $aqua-light !default;
+$selecter-item-hover:		           $lightgray-medium !default;
+$selecter-item-selected:		       $primary-medium !default;
+$selecter-item-selected-border-color:  $primary-light !default;
 
 
 // Exports

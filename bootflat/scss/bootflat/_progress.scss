@@ -1,12 +1,12 @@
 // Variables
 //------------------------------------------------------
-$progress-primary:                 $aqua-dark !default;
-$progress-success:                 $grass-dark !default;
-$progress-danger:                  $grapefruit-dark !default;
-$progress-warning:                 $sunflower-dark !default;
-$progress-info:                    $mint-dark !default;
+$progress-primary:                 $primary-dark !default;
+$progress-success:                 $success-medium !default;
+$progress-danger:                  $danger-medium !default;
+$progress-warning:                 $warning-medium !default;
+$progress-info:                    $info-medium !default;
 
-$progress-background-color:        $lightgray-dark !default;
+$progress-background-color:        $lightgray-medium !default;
 
 // Exports
 //------------------------------------------------------
@@ -38,5 +38,3 @@ $progress-background-color:        $lightgray-dark !default;
       }
   }
 }
-
-

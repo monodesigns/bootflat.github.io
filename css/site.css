@@ -604,8 +604,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 .color-swatches .light,
-.color-swatches .dark {
-    width: 50%;
+.color-swatches .dark,
+.color-swatches .medium {
+    width: 33.333333%;
     height: 50px;
 }
 .color-swatches .light {
@@ -632,6 +633,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .color-swatches .infos p {
     font-size: 12px;
+}
+.color-swatches .pull-center {
+    margin: 0 auto;
 }
 /* ----------------------------------
  * psd-download

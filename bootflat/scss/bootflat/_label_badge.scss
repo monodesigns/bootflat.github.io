@@ -1,12 +1,12 @@
 // Variables
 //------------------------------------------------------
-$label-normal:                  $mediumgray-dark !default;
-$label-default:                 $white !default;
-$label-primary:                 $aqua-dark !default;
-$label-success:                 $grass-dark !default;
-$label-danger:                  $grapefruit-dark !default;
-$label-warning:                 $sunflower-dark !default;
-$label-info:                    $mint-dark !default;
+$label-normal:                  $mediumgray-medium !default;
+$label-default:                 $lightgray-light !default;
+$label-primary:                 $primary-dark !default;
+$label-success:                 $success-medium !default;
+$label-danger:                  $danger-medium !default;
+$label-warning:                 $warning-medium !default;
+$label-info:                    $info-medium !default;
 
 $label-default-font-color:      $darkgray-dark !default;
 
@@ -61,5 +61,3 @@ $label-default-font-color:      $darkgray-dark !default;
     background-color: $label-info;
   }
 }
-
-
